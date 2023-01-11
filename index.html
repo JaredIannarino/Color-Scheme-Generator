@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title></title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <label class="pick-color" for="seed-color">Pick a color</label>
+            <input class="color" type="color" name="pick-color">
+            
+            <label class="pick-style" for="style-mode">Pick a style</label>
+            <select class="style" name="style-mode">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome dark</option>
+                <option value="monochrome-light">Monochrome light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+            
+            <button class="get-color-btn">Get color scheme</button>
+            
+        </header>
+        <section class="color-scheme">
+                <div class="seed-color"></div>
+            <div class="generated-colors">
+                <div class="generated-color"></div>
+                <div class="generated-color"></div>
+                <div class="generated-color"></div>
+                <div class="generated-color"></div>
+            </div>
+        </section>
+        <section class="hex-codes">
+            <div class="seed-hex-code">#123456</div>
+            <div class="generated-hex-code">#123456</div>
+            <div class="generated-hex-code">#123456</div>
+            <div class="generated-hex-code">#123456</div>
+            <div class="generated-hex-code">#123456</div>
+        </section>
+
+
+            
+        <script src="index.js"></script>
+    </body>
+</html>
+
+<!-- monochrome monochrome-dark monochrome-light analogic complement analogic-complement triad quad -->
