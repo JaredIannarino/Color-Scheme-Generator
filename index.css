@@ -6,6 +6,7 @@ html, body {
     width: 100%;
     height: 100%;
     background-color: whitesmoke;
+    font-size: 16px;
 }
 
 header{
@@ -42,7 +43,7 @@ header{
     width: 85%;
     height: 100%;
     border: 1px solid gray;
-    border-radius: 3px;
+    border-radius: 10px;
     
 }
 
@@ -58,6 +59,7 @@ header{
     border: 1px solid gray;
     border-radius: 3px;
     padding: 5px 10px;
+    width: 80%;
 }
 
 .get-color-btn, .style, .color, .pick-style, .pick-color {
